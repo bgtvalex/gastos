@@ -1,0 +1,161 @@
+.pay-below {
+  position: relative;
+}
+
+.pay-below__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.pay-below__title {
+  max-width: 700px;
+  margin-bottom: 31px;
+}
+
+.pay-below__subtitle {
+  max-width: 364px;
+  margin-bottom: 31px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Inter;
+  font-size: 19.75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.6px;
+  text-transform: capitalize;
+}
+
+.pay-below__desc {
+  padding: 0 0 171px;
+  position: relative;
+}
+
+.pay-below__picture {
+  position: relative;
+  padding: 10px 0;
+  height: fit-content;
+  width: fit-content;
+  margin-right: 46px;
+}
+
+.hint-pay-below {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  max-width: 278px;
+  height: 84px;
+  background-color: var(--bg-white);
+  padding: 12px;
+  border-radius: 7.9px;
+  box-shadow: -1.975px 3.95px 44.4375px 0px rgba(0, 0, 0, 0.13);
+}
+
+.hint-pay-below__img {
+  width: 80px;
+}
+
+.hint-pay-below__img-img {
+  width: 47.4px;
+  height: 47.4px;
+  border-radius: 47.4px;
+}
+
+.hint-pay-below__title {
+  color: #555;
+  font-size: 17.775px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.8px;
+  margin-bottom: 10px;
+}
+
+.hint-pay-below__testimonial {
+  color: #727272;
+  font-size: 13.825px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hint-1 {
+  position: absolute;
+  left: -35px;
+  top: 25px;
+}
+
+.hint-2 {
+  position: absolute;
+  bottom: 15px;
+  right: -45px;
+}
+
+@media (max-width: 1200px) {
+  .hint-pay-below__img-img {
+    width: 38.4px;
+    height: 38.4px;
+    border-radius: 47.4px;
+  }
+
+  .hint-pay-below__title {
+    font-size: 16px;
+  }
+
+  .hint-pay-below__testimonial {
+    font-size: 12px;
+  }
+
+  .hint-pay-below {
+    max-width: 250px;
+    height: 68px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .pay-below__row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+  }
+
+  .pay-below__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+  }
+
+  .pay-below__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .pay-below__desc {
+    padding: 20px 0;
+  }
+  .hint-1 {
+    position: absolute;
+    left: 0;
+    top: 25px;
+  }
+
+  .hint-2 {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+  }
+
+  .pay-below__picture-img {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hint-pay-below {
+    display: none;
+  }
+}

@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-color);
+  backdrop-filter: blur(35.54999923706055px);
+  font-family: var(--font-main);
+}
+
+.section {
+  padding: 77px 0;
+}
+
+.center {
+  text-align: center;
+  width: 100% !important;
+}
+
+.title-1 {
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-size: 71.1px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 96.775px; /* 136.111% */
+}
+
+.title-2 {
+  width: 500px;
+  font-size: 59.25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+a {
+  color: var(--font-main);
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  padding: 15.8px 17.775px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9.875px;
+
+  border-radius: 14.813px;
+  background: var(--bg-btn);
+  box-shadow: 2.9625px 3.95px 44.4375px 0px var(--text-green);
+
+  text-align: center;
+  font-size: 21.725px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.329px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.back-text {
+  color: var(--accent);
+  font-size: 177.75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+/* MEDIA */
+
+@media (max-width: 1200px) {
+  .title-1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title-1 {
+    text-align: center;
+  }
+
+  .title-2 {
+    width: unset;
+    font-size: 40px;
+  }
+
+  .section {
+    padding: 35px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-1 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+  
+  .back-text {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 512px) {
+  .title-2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 425px) {
+  .title-1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .title-2 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  --container-width: 1200px;
+  --container-padding: 15px;
+
+  --font-main: 'Mulish', sans-serif;
+  --font-second: 'Inter', sans-serif;
+  --font-third: 'Roboto', sans-serif;
+  --font-fourth: 'DM Sans', san-serif;
+
+  --bg-page: #191919;
+  --bg-btn: #2D796D;
+  --bg-white: #fff;
+
+
+  --text-color: #fff;
+  --accent: #C0CFCD26;
+  --text-green: #2D796D;
+
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

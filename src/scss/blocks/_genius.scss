@@ -1,0 +1,19 @@
+.genius__row {
+	margin: 100px auto;
+}
+
+.genius__title {
+	margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+	width: 100%;
+}
+
+@media (max-width: 425px) {
+	.genius__row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+}

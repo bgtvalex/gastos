@@ -1,0 +1,16 @@
+.offers__title .title-2{
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .offers__title .title-2{
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 425px) {
+  .offers__title .title-2{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,76 @@
+.below {
+  margin-top: 108px;
+}
+
+.below__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+	z-index: 2;
+	position: relative;
+}
+
+.below__cloud-1 {
+	position: absolute;
+	bottom: -158px;
+	left: 0;
+}
+
+.below__cloud-2 {
+	position: absolute;
+	bottom: -290px;
+	left: 290px;
+}
+
+.below__airplane {
+	position: absolute;
+	bottom: -540px;
+  left: 740px;
+}
+
+.below__cloud-3 {
+	position: absolute;
+	bottom: -440px;
+	left: 1061px;
+}
+
+.below__green {
+	position: absolute;
+	top: -350px;
+	right: -136px;
+	margin-left: calc(50% - 50vh);
+	width: 597px;
+	height: 850px;
+	flex-shrink: 0;
+	background-color: var(--bg-btn);
+	border-radius: 0px 0px 10px 350px;
+}
+
+.below__desc {
+  max-width: 320px;
+  text-align: center;
+}
+
+.below__subtitle {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.below__video {
+  max-width: 720px;
+  max-height: 405px;
+	
+	z-index: 2;
+
+  position: relative;
+}
+
+.video__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

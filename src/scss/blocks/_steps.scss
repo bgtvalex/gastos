@@ -1,0 +1,38 @@
+.steps_row {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps__text {
+  bottom: 0;
+  color: #fff;
+  font-size: 34.563px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  opacity: 0.32;
+}
+
+.steps__after-text {
+	margin-top: 50px;
+  font-size: 24.688px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140.625%;
+  text-transform: capitalize;
+	text-align: center;
+}
+
+
+
+@media (max-width: 425px) {
+
+  .steps__text {
+    font-size: 18px;
+  }
+
+  .steps__after-text {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+  height: 71px;
+  padding: 14px 0;
+}
+
+.header__row {
+	display: grid;
+	grid-template-columns: 1fr 38px 1fr;
+
+	@media (max-width: 767px) {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+}
+
+.header__nav--list {
+  display: flex;
+  gap: 31.6px;
+}
+
+.header__nav--item {
+  color: #fff;
+  font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+  font-family: Mulish;
+  font-size: 13.825px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36.5px;
+}
+
+
