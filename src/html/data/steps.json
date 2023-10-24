@@ -3,18 +3,18 @@
 		"title": "Scan The QR",
 		"subtitle": "Step 1: Open the Gastos app, scan the QR",
 		"back-text": "SCAN",
-		"img": "./../../../img/03_steps/mob-1.png"
+		"img": "./img/03_steps/mob-1.png"
 	},
 	{
 		"title": "Enter The Bill",
 		"subtitle": "Step 2 : Enter the amount you want to pay",
 		"back-text": "BILL",
-		"img": "./../../../img/03_steps/mob-2.png"
+		"img": "./img/03_steps/mob-2.png"
 	},
 	{
 		"title": "And It’s Done",
 		"subtitle": "Step 3 : Voila! You just paid your bill and got an instant discount ",
 		"back-text": "DONE",
-		"img": "./../../../img/03_steps/mob-3.png"
+		"img": "./img/03_steps/mob-3.png"
 	}
 ]
